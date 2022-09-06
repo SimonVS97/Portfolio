@@ -1,0 +1,14 @@
+/* Color combination: white and emerald
+emerald: #0CCE6B */
+/* https://www.logomaker.net/logo-maker/dashboard */
+/* good color palette: 9b7ede-832161-0cce6b-ffffff */
+
+:root {
+  --emerald: #0CCE6B;
+}
+
+.home {
+  background-color: var(--emerald);
+  color: white;
+}
+
