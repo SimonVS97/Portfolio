@@ -12,3 +12,10 @@ emerald: #0CCE6B */
   color: white;
 }
 
+.github_icon:hover path {
+  fill: green;
+}
+
+#linkedin_icon:hover path {
+  fill: green;
+}
