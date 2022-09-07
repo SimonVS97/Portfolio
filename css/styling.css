@@ -4,13 +4,17 @@ emerald: #0CCE6B */
 /* good color palette: 9b7ede-832161-0cce6b-ffffff */
 /*icon-icons.com for icons*/
 /* https://icon-icons.com/pack/Social-Media---Outline/3567 */
-
+/* https://icon-icons.com/users/fxJOFytN6h2GeI3ZQE8hN/icon-sets/ */
 :root {
   --emerald: #0CCE6B;
 }
 
 li a {
   color: var(--emerald);
+}
+
+svg {
+  display: inline;
 }
 
 .github_icon:hover path {
