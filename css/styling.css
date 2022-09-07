@@ -2,20 +2,22 @@
 emerald: #0CCE6B */
 /* https://www.logomaker.net/logo-maker/dashboard */
 /* good color palette: 9b7ede-832161-0cce6b-ffffff */
+/*icon-icons.com for icons*/
+/* https://icon-icons.com/pack/Social-Media---Outline/3567 */
 
 :root {
   --emerald: #0CCE6B;
 }
 
-.home {
-  background-color: var(--emerald);
-  color: white;
+li a {
+  color: var(--emerald);
 }
 
 .github_icon:hover path {
-  fill: green;
+  fill: var(--emerald);
 }
 
-#linkedin_icon:hover path {
-  fill: green;
+.linkedin_icon:hover path{
+  fill: var(--emerald);
 }
+
