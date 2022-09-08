@@ -15,9 +15,20 @@ body {
 
 button {
   font-family: inherit;
+  color: var(--emerald);
+  background-color: white;
+  transition: border;
+}
+
+button:hover {
+  border-color: var(--emerald);
 }
 
 li a {
+  color: var(--emerald);
+}
+
+li a:hover {
   color: var(--emerald);
 }
 
