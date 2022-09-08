@@ -18,10 +18,6 @@ body {
   transition: transform 0.2s;
 }
 
-/*.navigation--hidden {
-  transform: translateY(-100px);
-} */
-
 li a {
   color: var(--emerald);
 }
@@ -86,20 +82,19 @@ svg {
 }
 
 .home {
-  margin-top: 15vh;
+  margin-top: 35vh;
+
 }
 
 .about_me {
-  margin-top: 50vh;
+  margin-top: 40vh;
 }
 
 h1 {
   font-size: 4vw;
 }
 
-.profilepic {
-  width: 30%;
-}
+
 
 
 
