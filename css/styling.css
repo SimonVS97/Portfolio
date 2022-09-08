@@ -49,3 +49,17 @@ svg {
   fill: var(--emerald);
 }
 
+.sidebar {
+  position: fixed;
+  top: 30vh;
+  left: 3vw;
+  width: 50px;
+
+}
+
+.sidebar__ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
