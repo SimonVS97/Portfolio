@@ -57,6 +57,10 @@ svg {
 
 }
 
+.profilepic {
+  width: 30%;
+}
+
 .sidebar__ul {
   list-style-type: none;
   margin: 0;
