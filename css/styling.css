@@ -13,6 +13,14 @@ body {
   font-family: sans-serif;
 }
 
+li a {
+  color: var(--emerald);
+}
+
+li a:hover {
+  color: var(--emerald);
+}
+
 button {
   font-family: inherit;
   color: var(--emerald);
@@ -24,18 +32,19 @@ button:hover {
   border-color: var(--emerald);
 }
 
-li a {
-  color: var(--emerald);
+.sidebar {
+  position: fixed;
+  top: 30vh;
+  left: 3vw;
+  width: 50px;
+
 }
 
-li a:hover {
-  color: var(--emerald);
+.sidebar__ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-
-h1 {
-  font-size: 4vw;
-}
-
 
 svg {
   display: inline;
@@ -49,21 +58,21 @@ svg {
   fill: var(--emerald);
 }
 
-.sidebar {
-  position: fixed;
-  top: 30vh;
-  left: 3vw;
-  width: 50px;
 
+
+
+
+
+h1 {
+  font-size: 4vw;
 }
 
 .profilepic {
   width: 30%;
 }
 
-.sidebar__ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+
+
+
+
 
