@@ -9,9 +9,22 @@ emerald: #0CCE6B */
   --emerald: #0CCE6B;
 }
 
+body {
+  font-family: sans-serif;
+}
+
+button {
+  font-family: inherit;
+}
+
 li a {
   color: var(--emerald);
 }
+
+h1 {
+  font-size: 4vw;
+}
+
 
 svg {
   display: inline;
