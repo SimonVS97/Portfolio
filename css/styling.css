@@ -44,6 +44,10 @@ button:hover {
   width: 50px;
 }
 
+.sidebar .sidebar__ul li:last-child {
+  margin-top: 11vh;
+}
+
 .sidebar__ul {
   list-style-type: none;
   margin: 0;
