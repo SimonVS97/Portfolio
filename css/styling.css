@@ -92,14 +92,27 @@ svg {
 
 .about_me {
   margin-top: 40vh;
+  margin-bottom: 40vh;
 }
 
 h1 {
   font-size: 4vw;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin: 0;
+}
 
+.grid__item {
+  background-color: var(--emerald);
+}
 
+.projects {
+  margin-bottom: 40vh;
+}
 
 
 
