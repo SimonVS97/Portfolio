@@ -30,23 +30,22 @@ button {
   font-family: inherit;
   color: var(--emerald);
   background-color: white;
-  transition: border;
+  border-color: var(--emerald);
+  border-style: solid;
+  transition: border; 
 }
 
 button:hover {
   border-color: var(--emerald);
-}
+} 
 
 .sidebar {
   position: fixed;
-  top: 65vh;
+  top: 70vh;
   left: 3vw;
   width: 50px;
 }
 
-.sidebar .sidebar__ul li:last-child {
-  margin-top: 11vh;
-}
 
 .sidebar__ul {
   list-style-type: none;
@@ -62,7 +61,15 @@ svg {
   fill: var(--emerald);
 }
 
-.linkedin_icon:hover path{
+.linkedin_icon:hover path {
+  fill: var(--emerald);
+}
+
+.cv_icon:hover {
+  fill: var(--emerald);
+}
+
+.wa_icon:hover path {
   fill: var(--emerald);
 }
 
@@ -111,10 +118,28 @@ h1 {
 }
 
 .projects {
+  margin-bottom: 50vh;
+}
+
+.contact {
   margin-bottom: 40vh;
 }
 
+#contact__hello_button {
 
+  width: inherit;
+  border-style: none;
+  border-width: 5px;
+  border-color: #0CCE6B;
+  font-size: 1.5vw;
+  color:#FFFFFF;
+  background-color: rgba(12, 206, 107, 0.3);
+  transition: background-color 0.2s;
+}
+
+#contact__hello_button:hover {
+  background-color: rgba(12, 206, 107);
+}
 
 
 
