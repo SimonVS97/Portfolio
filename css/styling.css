@@ -24,7 +24,8 @@ h1 {
 }
 
 li a {
-  color: var(--emerald);
+  color: #000000;
+  transition: color 0.2s;
 }
 
 li a:hover {
@@ -33,14 +34,15 @@ li a:hover {
 
 button {
   font-family: inherit;
-  color: var(--emerald);
+  color: #000000;
   background-color: white;
   border-color: var(--emerald);
   border-style: solid;
-  transition: border; 
+  transition: border 0.2s; 
 }
 
 button:hover {
+  color: var(--emerald);
   border-color: var(--emerald);
 } 
 
@@ -117,7 +119,16 @@ svg {
 }
 
 #about_me__img {
-  padding-top: 8.2vh;
+  padding: 0;
+} 
+
+#about_me__img:after {
+  content: '';
+  border: 2px solid #000000;
+  position: absolute;
+  inset: 0;
+  transform: translate(+15px, +15px);
+  z-index: -1;
 }
 
 
@@ -175,6 +186,10 @@ svg {
 
 #contact__hello_button:hover {
   background-color: rgba(12, 206, 107);
+}
+
+#contact__hello_button a:first-child {
+  color: #FFFFFF;
 }
 
 
