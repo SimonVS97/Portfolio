@@ -127,9 +127,17 @@ svg {
   border: 2px solid #000000;
   position: absolute;
   inset: 0;
-  transform: translate(+15px, +15px);
   z-index: -1;
+  transform: translate(30px, 30px);
+  transition: transform 0.2s, border-color 0.2s;
+
 }
+
+#about_me__img:hover::after {
+  transform: translate(15px,15px);
+  border-color: var(--emerald);
+}
+
 
 
 #skills p:nth-child(2n+1) {
