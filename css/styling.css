@@ -13,6 +13,11 @@ body {
   font-family: sans-serif;
 }
 
+h1 {
+  font-size: 4vw;
+}
+
+/* Navigation */
 .navigation {
   background-color: #FFFFFF;
   transition: transform 0.2s;
@@ -38,6 +43,8 @@ button {
 button:hover {
   border-color: var(--emerald);
 } 
+
+/* Sidebars */
 
 .sidebar {
   position: fixed;
@@ -73,12 +80,6 @@ svg {
   fill: var(--emerald);
 }
 
-.vertical {
-  border-left: 1px solid black;
-  height: 400px;
-  position:absolute;
-  left: 50%;
-}
 
 .sidebar_email {
   position: fixed;
@@ -97,15 +98,28 @@ svg {
   color: #0CCE6B;
 }
 
+/* Home section */
+
 .home {
   margin-top: 35vh;
 
 }
 
+/* about me section */
+
 .about_me {
-  margin-top: 40vh;
+  margin-top: 35vh;
   margin-bottom: 40vh;
 }
+
+#about_me__header {
+  padding-bottom: 3vh;
+}
+
+#about_me__img {
+  padding-top: 8.2vh;
+}
+
 
 #skills p:nth-child(2n+1) {
   font-weight: bold;
@@ -115,8 +129,11 @@ svg {
   text-indent:10%;
 }
 
-h1 {
-  font-size: 4vw;
+
+/* Projects section */
+
+#projects__header {
+  padding-bottom: 3vh;
 }
 
 .grid {
@@ -132,6 +149,12 @@ h1 {
 
 .projects {
   margin-bottom: 50vh;
+}
+
+/* Contact section */
+
+#contact__header {
+  padding-bottom: 3vh;
 }
 
 .contact {
