@@ -90,6 +90,11 @@ svg {
 .sidebar_email a {
   writing-mode: vertical-rl;
   color: black;
+  transition: color 0.2s;
+}
+
+.sidebar_email a:hover {
+  color: #0CCE6B;
 }
 
 .home {
@@ -100,6 +105,14 @@ svg {
 .about_me {
   margin-top: 40vh;
   margin-bottom: 40vh;
+}
+
+#skills p:nth-child(2n+1) {
+  font-weight: bold;
+}
+
+#skills p:nth-child(2n) {
+  text-indent:10%;
 }
 
 h1 {
