@@ -106,7 +106,7 @@ svg {
 
 /* Home section */
 
-.home {
+#Home {
   margin-top: 35vh;
 }
 
@@ -133,7 +133,7 @@ svg {
 
 .about_me {
   margin-top: 35vh;
-  margin-bottom: 40vh;
+  margin-bottom: 35vh;
 }
 
 #about_me__img {
@@ -197,8 +197,17 @@ svg {
   color: #000000;
 }
 
+.card-body button:hover {
+  color: var(--emerald);
+} 
+
+.card-body a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 .projects {
-  margin-bottom: 50vh;
+  margin-bottom: 35vh;
 }
 
 /* Contact section */
@@ -231,5 +240,11 @@ svg {
   color: #FFFFFF;
 }
 
+/* footer section */
 
+.footer img {
+  margin:auto;
+  display: block;
+
+}
 
