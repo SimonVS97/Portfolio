@@ -138,8 +138,6 @@ svg {
   border-color: var(--emerald);
 }
 
-
-
 #skills p:nth-child(2n+1) {
   font-weight: bold;
 }
