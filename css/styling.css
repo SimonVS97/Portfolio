@@ -104,7 +104,25 @@ svg {
 
 .home {
   margin-top: 35vh;
+}
 
+#home__resumeButton {
+  width: inherit;
+  border-style: none;
+  border-width: 5px;
+  border-color: #0CCE6B;
+  font-size: 1.5vw;
+  color:#FFFFFF;
+  background-color: rgba(12, 206, 107, 0.3);
+  transition: background-color 0.2s;
+}
+
+#home__resumeButton:hover {
+  background-color: rgba(12, 206, 107);
+}
+
+#home__resumeButton a:first-child {
+  color: #FFFFFF;
 }
 
 /* about me section */
@@ -112,10 +130,6 @@ svg {
 .about_me {
   margin-top: 35vh;
   margin-bottom: 40vh;
-}
-
-#about_me__header {
-  padding-bottom: 3vh;
 }
 
 #about_me__img {
@@ -149,19 +163,11 @@ svg {
 
 /* Projects section */
 
-#projects__header {
-  padding-bottom: 3vh;
-}
-
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   margin: 0;
-}
-
-.grid__item {
-  background-color: var(--emerald);
 }
 
 .projects {
