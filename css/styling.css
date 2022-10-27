@@ -5,6 +5,18 @@ emerald: #0CCE6B */
 /*icon-icons.com for icons*/
 /* https://icon-icons.com/pack/Social-Media---Outline/3567 */
 /* https://icon-icons.com/users/fxJOFytN6h2GeI3ZQE8hN/icon-sets/ */
+/* icons for programming https://icon-icons.com/pack/Devicon/2415
+JS
+CSS
+HTML
+Boostrap
+Redux
+Node JS
+Mongo DB
+Jest
+Puppeteer
+AWS
+*/
 :root {
   --emerald: #0CCE6B;
 }
@@ -208,6 +220,10 @@ svg {
 
 .projects {
   margin-bottom: 35vh;
+}
+
+.project_icon {
+  width: 20%;
 }
 
 /* Contact section */
