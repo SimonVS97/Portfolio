@@ -19,6 +19,7 @@ AWS
 */
 :root {
   --emerald: #0CCE6B;
+  --second_background_color: #f7f7f7;
 }
 
 body {
@@ -98,7 +99,6 @@ svg {
   fill: var(--emerald);
 }
 
-
 .sidebar_email {
   position: fixed;
   top: 65vh;
@@ -144,12 +144,17 @@ svg {
 /* about me section */
 
 .about_me {
-  margin-top: 35vh;
-  margin-bottom: 35vh;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color: var(--second_background_color);
+  z-index: -2;
 }
 
 #about_me__img {
   padding: 0;
+  z-index: 0;
 } 
 
 #about_me__img:after {
@@ -160,7 +165,6 @@ svg {
   z-index: -1;
   transform: translate(30px, 30px);
   transition: transform 0.2s, border-color 0.2s;
-
 }
 
 #about_me__img:hover::after {
@@ -234,6 +238,7 @@ svg {
 
 .contact {
   margin-bottom: 40vh;
+  background-color: var(--second_background_color);
 }
 
 #contact__hello_button {
