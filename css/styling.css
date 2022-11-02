@@ -22,6 +22,11 @@ AWS
   --second_background_color: #f7f7f7;
 }
 
+.logo {
+  width: 8vh;
+  height: auto;
+}
+
 body {
   font-family: sans-serif;
 }
