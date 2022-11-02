@@ -22,11 +22,6 @@ AWS
   --second_background_color: #f7f7f7;
 }
 
-.logo {
-  width: 8vh;
-  height: auto;
-}
-
 body {
   font-family: sans-serif;
 }
@@ -177,13 +172,38 @@ svg {
   border-color: var(--emerald);
 }
 
-#skills p:nth-child(2n+1) {
+#skills p {
   font-weight: bold;
 }
 
-#skills p:nth-child(2n) {
-  text-indent:10%;
+.logo {
+  width: 6vh;
+  height: auto;
 }
+
+.logo_git {
+  width: 11vh;
+  height: auto;
+}
+
+.logo_mongo {
+  width: 23vh;
+  height: 5vh;
+}
+
+.logo_netlify {
+  width: 15vh;
+  height: auto;
+}
+
+.logo_heroku {
+  width: 6vh;
+  height: auto;
+}
+
+/*#skills p:nth-child(2n) {
+  text-indent:10%;
+} */
 
 
 /* Projects section */
