@@ -181,6 +181,11 @@ svg {
   height: auto;
 }
 
+.logo_css {
+  width: 5vh;
+  height: auto;
+}
+
 .logo_git {
   width: 11vh;
   height: auto;
