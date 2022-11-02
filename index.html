@@ -120,7 +120,7 @@
 
   <div id="Home" class="container-fluid home">
     <div class="row">
-      <div class="col-sm-1"></div>
+      <div class="col-sm-2"></div>
       <div class="col-sm">
         <p style="color:#000">Hi, my name is</p>
         <h1 style="color:#51536f">Simon Schubert.</h1>
@@ -131,7 +131,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-1"> </div>
+      <div class="col-sm-2"> </div>
       <div class="col-sm-5">
         <button id="home__resumeButton" class="btn">Take a look at my Resume!</button>
       </div>
@@ -141,14 +141,14 @@
 
   <div class="container-fluid about_me" id="about_me">
     <div class="row">
-      <div class="col-sm-1"></div>
+      <div class="col-sm-2"></div>
       <div class="col-sm">
         <h2 id="about_me__header">II. About me</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-6">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-5">
         <p>
           Hello! My name is Simon and I enjoy creating things that live on the internet.
           My interest in web development started back in 2021 when I decided to to take a course in web development at
@@ -172,7 +172,7 @@
         </div>
       </div>
 
-      <div class="col-sm" id="about_me__img">
+      <div class="col-sm-3" id="about_me__img">
         <img class="img-fluid" src="img/Simon Schubert.jpeg">
       </div>
       <div class="col-sm-2"></div>
@@ -184,69 +184,67 @@
 
   <div id="projects" class="container-fluid projects">
     <div class="row">
-      <div class="col-sm-1"></div>
+      <div class="col-sm-2"></div>
       <div class="col-sm">
         <h2 id="projects__header">III. Projects</h2>
         <p>Here are a few projects I have worked on recently.</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-sm-1"></div>
 
-    </div>
     <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm">
-        <div class="grid">
-          <div class="card">
-            <div class="card-header">
-              Meet App
-            </div>
-            <div class="card-body d-flex flex-column">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <div class="card">
+          <div class="card-header">
+            Meet App
+          </div>
+          <div class="card-body d-flex row">
+            <div class="col-sm-5">
               <p>This app provides a list of upcoming events for any given city, with data provided by Google Calendar.
                 The app works offline using cached data from the last time it was used online.
                 The user can serach for events in a specific city or browse all events, customize how many events are
                 shown on screen,
                 click an event for more details, and see how many events are upcoming in certain cities.
               </p>
-              <img src="./img/MeetApp.png">
-              <br></br>
-              <div class="mt-auto">
-                <button class="btn">
-                  <a href="https://simonvs97.github.io/Meet_App/">Test the app live</a>
-                </button>
-                <button class="btn">
-                  <a href="https://github.com/SimonVS97/Meet_App">See project on GitHub</a>
-                </button>
-              </div>
+              <button class="btn">
+                <a href="https://simonvs97.github.io/Meet_App/">Test the app live</a>
+              </button>
+              <button class="btn">
+                <a href="https://github.com/SimonVS97/Meet_App">See project on GitHub</a>
+              </button>
             </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header">
-              myFlix
-            </div>
-            <div class="card-body d-flex flex-column">
-              <p>
-                This is an app that displays information about movies, directors and genres.
-                User can create an account and create list of favorites movies.
-                Users can also update their profile information and also deregister from the app.
-                The app is structured according to the flux pattern with the help of React-Redux.
-              </p>
-              <img src="./img/MyFlix.png">
-              <div class="mt-auto">
-                <button class="btn">
-                  <a href="https://bejewelled-kleicha-5df9db.netlify.app/">Test the app live</a>
-                </button>
-                <button class="btn">
-                  <a href="https://github.com/SimonVS97/myFlix-ReduxClient">See the project on Github</a>
-                </button>
-              </div>
-            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5"><img class="card__img" src="./img/MeetApp.png"></div>
           </div>
         </div>
       </div>
     </div>
+
+    <!--<div class="card">
+        <div class="card-header">
+          myFlix
+        </div>
+        <div class="card-body d-flex flex-column">
+          <p>
+            This is an app that displays information about movies, directors and genres.
+            User can create an account and create list of favorites movies.
+            Users can also update their profile information and also deregister from the app.
+            The app is structured according to the flux pattern with the help of React-Redux.
+          </p>
+          <img src="./img/MyFlix.png">
+          <div class="mt-auto">
+            <button class="btn">
+              <a href="https://bejewelled-kleicha-5df9db.netlify.app/">Test the app live</a>
+            </button>
+            <button class="btn">
+              <a href="https://github.com/SimonVS97/myFlix-ReduxClient">See the project on Github</a>
+            </button>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+  </div> -->
     <div class="row">
       <div class="col-sm-1"></div>
       <div class="col-sm">
@@ -274,7 +272,8 @@
             </div>
             <div class="card-body d-flex flex-column">
               <p>
-                This is a web server that stores information about users and movies in a database and edits the database
+                This is a web server that stores information about users and movies in a database and edits the
+                database
                 based on http requests.
               </p>
               <img src="./img/movieAPI.png">
