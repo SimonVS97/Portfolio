@@ -237,7 +237,8 @@ svg {
 }
 
 .contact {
-  margin-bottom: 40vh;
+  padding-top: 10vh;
+  padding-bottom: 20vh;
   background-color: var(--second_background_color);
 }
 
@@ -262,6 +263,10 @@ svg {
 }
 
 /* footer section */
+
+.footer {
+  padding-top: 20vh;
+}
 
 .footer img {
   margin:auto;
