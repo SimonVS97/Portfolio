@@ -49,7 +49,6 @@ li a:hover {
   color: var(--emerald);
 }
 
-/* Diese KLasse wird überhaupt nicht benutzt*/
 button {
   width: inherit;
   border-style: none;
@@ -184,11 +183,11 @@ svg {
 
 .logo {
   width: 6vh;
-  height: auto;
+  height: 6vh;
 }
 
-.logo_css {
-  width: 5vh;
+.logo_bs {
+  width: 6vh;
   height: auto;
 }
 
