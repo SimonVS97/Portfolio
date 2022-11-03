@@ -49,18 +49,24 @@ li a:hover {
   color: var(--emerald);
 }
 
+/* Diese KLasse wird überhaupt nicht benutzt*/
 button {
-  font-family: inherit;
-  color: #000000;
-  background-color: white;
-  border-color: var(--emerald);
-  border-style: solid;
-  transition: border 0.2s; 
+  width: inherit;
+  border-style: none;
+  border-width: 5px;
+  border-color: #0CCE6B;
+  font-size: 1.5vw;
+  color:#FFFFFF;
+  background-color: rgba(12, 206, 107, 0.3);
+  transition: background-color 0.2s;
+}
+
+button a {
+  color: #FFFFFF;
 }
 
 button:hover {
-  color: var(--emerald);
-  border-color: var(--emerald);
+  background-color: rgba(12, 206, 107);
 } 
 
 /* Sidebars */
@@ -206,11 +212,6 @@ svg {
   height: auto;
 }
 
-/*#skills p:nth-child(2n) {
-  text-indent:10%;
-} */
-
-
 /* Projects section */
 
 .card {
@@ -233,10 +234,6 @@ svg {
 }
 
 .card-body {
-  color: #000000;
-}
-
-.card-body a {
   color: #000000;
 }
 
@@ -287,6 +284,7 @@ svg {
 
 #contact__hello_button a:first-child {
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 /* footer section */
