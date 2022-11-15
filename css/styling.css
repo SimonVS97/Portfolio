@@ -46,9 +46,30 @@ h1 {
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   line-height: 1.5;
+  text-decoration: none;
 }
 
 .linkButton:hover{
+  background-color: rgba(12, 206, 107);
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.linkButtonAlt {
+  background-color: rgba(12, 206, 107, 0.3);
+  border-radius: 5px;
+  color: #fff !important;
+  transition: background-color 0.2s;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  line-height: 1.5;
+}
+
+.linkButtonAlt:hover{
   background-color: rgba(12, 206, 107);
   cursor: pointer;
 }
