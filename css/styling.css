@@ -72,6 +72,7 @@ h1 {
 .linkButtonAlt:hover{
   background-color: rgba(12, 206, 107);
   cursor: pointer;
+  text-decoration: none;
 }
 
 /* Navigation */
@@ -202,7 +203,7 @@ svg {
   z-index: 0;
 } 
 
-#about_me__img:after {
+/*#about_me__img:after {
   content: '';
   border: 2px solid #000000;
   position: absolute;
@@ -215,7 +216,7 @@ svg {
 #about_me__img:hover::after {
   transform: translate(15px,15px);
   border-color: var(--emerald);
-}
+} */
 
 #skills p {
   font-weight: bold;
@@ -276,15 +277,6 @@ svg {
   color: #000000;
 }
 
-.card-body button:hover {
-  color: var(--emerald);
-} 
-
-.card-body a:hover {
-  text-decoration: none;
-  color: inherit;
-}
-
 .projects {
   margin-bottom: 35vh;
 }
@@ -303,27 +295,6 @@ svg {
   padding-top: 10vh;
   padding-bottom: 20vh;
   background-color: var(--second_background_color);
-}
-
-#contact__hello_button {
-
-  width: inherit;
-  border-style: none;
-  border-width: 5px;
-  border-color: #0CCE6B;
-  font-size: 1.5vw;
-  color:#FFFFFF;
-  background-color: rgba(12, 206, 107, 0.3);
-  transition: background-color 0.2s;
-}
-
-#contact__hello_button:hover {
-  background-color: rgba(12, 206, 107);
-}
-
-#contact__hello_button a:first-child {
-  color: #FFFFFF;
-  text-decoration: none;
 }
 
 /* footer section */
