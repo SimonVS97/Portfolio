@@ -40,9 +40,12 @@ h1 {
   color: #fff !important;
   font-size: 1.5vw;
   transition: background-color 0.2s;
+  display: block;
+  width: 100%;
   text-align: center;
-  margin-left: 15px;
-  padding: 0.375rem 0.75rem
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  line-height: 1.5;
 }
 
 .linkButton:hover{
