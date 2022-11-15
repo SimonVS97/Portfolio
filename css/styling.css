@@ -34,6 +34,22 @@ h1 {
   font-size: 1vw;
 }
 
+.linkButton {
+  background-color: rgba(12, 206, 107, 0.3);
+  border-radius: 5px;
+  color: #fff !important;
+  font-size: 1.5vw;
+  transition: background-color 0.2s;
+  text-align: center;
+  margin-left: 15px;
+  padding: 0.375rem 0.75rem
+}
+
+.linkButton:hover{
+  background-color: rgba(12, 206, 107);
+  cursor: pointer;
+}
+
 /* Navigation */
 .navigation {
   background-color: #FFFFFF;
