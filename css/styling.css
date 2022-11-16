@@ -129,6 +129,7 @@ button:hover {
     display: none;
   }
 } 
+
 .sidebar {
   position: fixed;
   top: 70vh;
@@ -182,28 +183,22 @@ svg {
 
 /* Home section */
 
-#Home {
-  margin-top: 35vh;
+
+@media all and (min-width: 576px) {
+  #Home {
+    margin-top: 35vh;
+  }  
+} 
+
+@media all and (max-width: 575px) {
+  #Home {
+    margin-top: 15vh;
+  }
+  #Home h1 {
+    font-size: 8vw;
+  }
 }
 
-#home__resumeButton {
-  width: inherit;
-  border-style: none;
-  border-width: 5px;
-  border-color: #0CCE6B;
-  font-size: 1.5vw;
-  color:#FFFFFF;
-  background-color: rgba(12, 206, 107, 0.3);
-  transition: background-color 0.2s;
-}
-
-#home__resumeButton:hover {
-  background-color: rgba(12, 206, 107);
-}
-
-#home__resumeButton a:first-child {
-  color: #FFFFFF;
-}
 
 /* about me section */
 
@@ -326,10 +321,13 @@ height: auto;
   padding-top: 20vh;
 }
 
+.imgWrapper {
+  display: inline;
+  text-align: center;
+}  
 
 @media all and (max-width: 575px) {
-  .imgWrapper {
-    display: inline;
-    text-align: center;
-  }  
+  .footnote {
+    margin: auto;
+  }
 } 
