@@ -203,6 +203,11 @@ svg {
   z-index: 0;
 } 
 
+#about_me__img img {
+width: 100%;
+height: auto;
+} 
+
 /*#about_me__img:after {
   content: '';
   border: 2px solid #000000;
