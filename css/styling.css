@@ -326,9 +326,10 @@ height: auto;
   padding-top: 20vh;
 }
 
-.footer img {
-  margin:auto;
-  display: block;
 
-}
-
+@media all and (max-width: 575px) {
+  .imgWrapper {
+    display: inline;
+    text-align: center;
+  }  
+} 
