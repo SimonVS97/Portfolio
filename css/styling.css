@@ -75,6 +75,13 @@ h1 {
 }
 
 /* Navigation */
+
+@media all and (max-width: 575px) {
+  .navigation {
+    display: none;
+  }
+} 
+
 .navigation {
   background-color: #FFFFFF;
   transition: transform 0.2s;
@@ -114,7 +121,14 @@ button:hover {
 } 
 
 /* Sidebars */
-
+@media all and (max-width: 575px) {
+  .sidebar {
+    display: none;
+  }
+  .sidebar_email {
+    display: none;
+  }
+} 
 .sidebar {
   position: fixed;
   top: 70vh;
