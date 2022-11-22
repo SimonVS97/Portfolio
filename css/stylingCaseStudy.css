@@ -26,3 +26,7 @@ Heading
 .card__img {
   box-shadow: 2px 2px 10px -3px rgb(52 58 64 / 99%);
 }
+
+.teckStackWrapper {
+  margin-bottom: 1vh;
+}
