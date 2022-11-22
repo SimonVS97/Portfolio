@@ -289,6 +289,7 @@ height: auto;
 .card-header {
   border-color: inherit;
   color: inherit;
+  font-size: 20px;
 }
 
 .card-body {
