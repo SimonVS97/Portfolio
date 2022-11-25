@@ -60,22 +60,26 @@ h1 {
   background-color: rgba(12, 206, 107, 0.3);
   border-radius: 5px;
   color: #fff !important;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s !important;
   display: block;
   width: 100%;
   text-align: center;
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   line-height: 1.5;
+  text-decoration: none;
 }
 
 .linkButtonAlt:hover{
   background-color: rgba(12, 206, 107);
   cursor: pointer;
-  text-decoration: none;
 }
 
 /* Navigation */
+
+#navbarNav {
+  padding-right: 50px;
+}
 
 @media all and (max-width: 575px) {
   .navigation {
@@ -88,38 +92,23 @@ h1 {
   transition: transform 0.2s;
 }
 
-li a {
-  color: #000000;
-  transition: color 0.2s;
+.nav-link {
+  color: #000000 !important;
+  transition: color 0.2s !important;
+}
+
+.nav-link:hover {
+  color: var(--emerald) !important;
 }
 
 li:last-child a {
   padding-left: 10px;
   padding-right: 10px;
-}
+} 
 
-li a:hover {
+.nav-item:hover {
   color: var(--emerald);
 }
-
-button {
-  width: inherit;
-  border-style: none;
-  border-width: 5px;
-  border-color: #0CCE6B;
-  font-size: 1.5vw;
-  color:#FFFFFF;
-  background-color: rgba(12, 206, 107, 0.3);
-  transition: background-color 0.2s;
-}
-
-button a {
-  color: #FFFFFF;
-}
-
-button:hover {
-  background-color: rgba(12, 206, 107);
-} 
 
 /* Sidebars */
 @media all and (max-width: 575px) {
@@ -176,6 +165,7 @@ svg {
   writing-mode: vertical-rl;
   color: black;
   transition: color 0.2s;
+  text-decoration: none;
 }
 
 .sidebar_email a:hover {
@@ -200,6 +190,29 @@ svg {
   }
 }
 
+.me {
+  --s: 10px; /* control the size */
+  padding: var(--s);
+  border: calc(2*var(--s)) solid #0000;
+  outline: 1px solid #000;
+  outline-offset: calc(-1*var(--s));
+  background: conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0);
+  transition: outline-color, background 0.2s;
+}
+
+.me:hover {
+  outline-color: #0CCE6B;
+  background: conic-gradient(from 90deg at 1px 1px,#fff 25%,#0CCE6B 0);
+}
+
+.Home__sentence {
+  font-size: 20px;
+}
+
+.Home__button {
+  display: inline-block;
+  width: 15vw;
+}
 
 /* about me section */
 
@@ -244,31 +257,42 @@ height: auto;
 .logo {
   width: 6vh;
   height: 6vh;
+  transition: width, height 0.5s;
+}
+
+.logo:hover {
+  width: 7vh;
+  height: 7vh;
 }
 
 .logo_bs {
   width: 6vh;
   height: auto;
+  transition: width 0.5s;
+}
+
+.logo_bs:hover {
+  width: 7vh;
 }
 
 .logo_git {
   width: 11vh;
   height: auto;
+  transition: width 0.5s;
 }
 
-.logo_mongo {
-  width: 23vh;
-  height: 5vh;
+.logo_git:hover {
+  width: 12vh;
 }
 
 .logo_netlify {
   width: 15vh;
   height: auto;
+  transition: width 0.5s;
 }
 
-.logo_heroku {
-  width: 6vh;
-  height: auto;
+.logo_netlify:hover {
+  width: 16vh;
 }
 
 /* Projects section */
@@ -305,15 +329,23 @@ height: auto;
   width: 20%;
 }
 
-/* Contact section */
-
-#contact__header {
-  padding-bottom: 3vh;
+.myFlix__techWrapper {
+  margin-bottom: 2vh;
 }
+
+.movieAPI__wrapper {
+  margin-bottom: 2vh;
+}
+
+.chatify_wrapper {
+  margin-bottom: 2vh;
+}
+
+/* Contact section */
 
 .contact {
   padding-top: 10vh;
-  padding-bottom: 20vh;
+  padding-bottom: 10vh;
   background-color: var(--second_background_color);
 }
 
@@ -322,6 +354,10 @@ height: auto;
 .footer {
   padding-top: 10vh;
   padding-bottom: 5vh;
+}
+
+.footnote {
+  text-align: center;
 }
 
 .imgWrapper {

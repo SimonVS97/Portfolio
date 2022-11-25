@@ -21,3 +21,4 @@
     lastScrollY = window.scrollY;
   });
 }
+
