@@ -213,7 +213,12 @@ svg {
   display: inline-block;
   width: 15vw;
 }
-
+@media all and (max-width: 567px) {
+  .Home__button {
+    display: inline-block;
+    width: 30vw;
+  }
+}
 /* about me section */
 
 .about_me {
