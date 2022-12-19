@@ -12,28 +12,32 @@
 </head>
 
 <body>
+
   <nav id="navigation" class="navigation navbar navbar-expand-sm  fixed-top">
-    <nav class="navbar">
-      <a class="navbar-brand" href="#Home">
-        <img src="img/Logo.png" width="100" height="100" alt="">
-      </a>
-    </nav>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
+    <a class="navbar-brand" href="#Home">
+      <img src="img/Logo.png" width="100" height="100" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav ml-auto ">
         <li class="nav-item ">
-          <a class="nav-link" href="index.html#Home">I. Home</span></a>
+          <a class="nav-link" href="#Home">I. Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#about_me">II. About me</a>
+          <a class="nav-link" href="#about_me">II. About me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#projects">III. Projects</a>
+          <a class="nav-link" href="#projects">III. Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#contact">IV. Contact</a>
+          <a class="nav-link" href="#contact">IV. Contact</a>
         </li>
         <li class="nav-item">
-          <a class="linkButtonAlt">Resume</a>
+          <a target="_blank" href="./pdf/Schubert-Simon-Lebenslauf.pdf" class="linkButtonAlt">Lebenslauf</a>
         </li>
       </ul>
     </div>
