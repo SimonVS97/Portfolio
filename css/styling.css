@@ -94,6 +94,7 @@ h1 {
 .navigation {
   background-color: #FFFFFF;
   transition: transform 0.2s;
+  padding-left: 50px;
 }
 
 .nav-link {
