@@ -183,13 +183,22 @@ svg {
   #Home {
     margin-top: 35vh;
   }  
+  #HomeGerman {
+    margin-top: 35vh;
+  }  
 } 
 
 @media all and (max-width: 575px) {
   #Home {
     margin-top: 15vh;
   }
+  #HomeGerman {
+    margin-top: 15vh;
+  }
   #Home h1 {
+    font-size: 8vw;
+  }
+  #HomeGerman h1 {
     font-size: 8vw;
   }
 }
