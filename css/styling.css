@@ -85,11 +85,9 @@ h1 {
   padding-right: 50px;
 }
 
-/*@media all and (max-width: 575px) {
-  .navigation {
-    display: none;
-  }
-} */
+#navbarNavGerman {
+  padding-right: 50px;
+}
 
 .navigation {
   background-color: #FFFFFF;
@@ -248,29 +246,10 @@ svg {
   z-index: 0;
 } 
 
-#about_me__img img {
-width: 100%;
-height: auto;
+#about_me__imgGerman {
+  padding: 0;
+  z-index: 0;
 } 
-
-/*#about_me__img:after {
-  content: '';
-  border: 2px solid #000000;
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  transform: translate(30px, 30px);
-  transition: transform 0.2s, border-color 0.2s;
-}
-
-#about_me__img:hover::after {
-  transform: translate(15px,15px);
-  border-color: var(--emerald);
-} */
-
-#skills p {
-  font-weight: bold;
-}
 
 .logo {
   width: 6vh;
