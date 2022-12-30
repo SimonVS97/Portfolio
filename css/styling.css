@@ -72,6 +72,8 @@ h1 {
   padding-bottom: 0.375rem;
   line-height: 1.5;
   text-decoration: none;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .linkButtonAlt:hover{
@@ -110,6 +112,11 @@ li:last-child a {
 
 .nav-item:hover {
   color: var(--emerald);
+}
+
+.nav-item:last-child {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 /* Sidebars */
